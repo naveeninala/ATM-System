@@ -1,0 +1,105 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .head
+{
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+
+}
+.email,.mobile,.otp
+{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+}
+hr
+{
+    border-color: white solid 2px;
+}
+.login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    border: 2px solid white;
+    padding: 20px;
+    background-color: rgb(217, 236, 236);
+    margin: 15%;
+}
+.button > button
+{
+    margin: 5px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(12, 181, 196);
+    font-size: 20px;
+}
+.buttonsignup > button
+{
+    margin:10px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(57, 210, 57);
+    font-size: 13px;
+}
+.alr,.buttonsignup
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* body
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+.email > .e-mail,.mobile > .mob, .otp > .otp
+{
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo > img
+{
+    width: 300px;
+}
+.container
+{
+    margin: 120px;
+    padding: 30px;
+    border-radius: 15px;
+}
+.warn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
