@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Change PIN</title>
+<link rel="stylesheet" type="text/css" href="changepin.css">
+</head>
+<body>
+    <form action="pinchange">
+        <h2>PIN GENERATION</h2>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="cpin">Current PIN</label>
+            <input type="number" id="cpin" name="cpin" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="npin">New PIN</label>
+            <input type="number" id="npin" name="npin" required>
+        </div>
+        
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
